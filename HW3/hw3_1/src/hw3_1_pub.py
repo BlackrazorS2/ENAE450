@@ -12,18 +12,25 @@ from std_msgs.msg import UInt32, UInt32MultiArray
 class HW31Publisher(Node):
     def __init__(self):
         super().__init__("hw_3_1_publisher_node")
-        self.publisher_=self.create_publisher(UInt32MultiArray, "topic_1", 10)
+        self.publisher_1=self.create_publisher(UInt32MultiArray, "topic_1", 10)
+        self.publisher_2=self.create_publisher(UInt32MultiArray, "topic_2", 10)
         timer_period = 2
         self.serial = 1
         self.timer = self.create_timer(timer_period, self.timer_callback)
     def timer_callback(self):
-        msg = UInt32MultiArray()
-        msg.data = [self.serial]
+        msg_1 = UInt32MultiArray()
+        msg_2 = UInt32MultiArray()
+        msg_1.data = [self.serial]
+        msg_2.data = [self.serial]
         for i in range(0,10):
             num = randint(0, 101)
-            msg.data.append(num)
-        self.publisher_.publish(msg)
-        self.get_logger().info(f"Publishing: {msg.data}")
+            msg_1.data.append(num)
+        for i in range(0,10):
+            num = randint(0, 101)
+            msg_2.data.append(num)
+        self.publisher_1.publish(msg_1)
+        self.publisher_2.publish(msg_2)
+        self.get_logger().info(f"Publishing: {msg_1.data} to topic 1 and {msg_2.data} to topic 2")
         self.serial += 1
 
 def main(args=None):
