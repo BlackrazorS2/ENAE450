@@ -1,6 +1,13 @@
+from random import randint
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import UInt32, UInt32MultiArray
+
+# See the following
+# https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
+# https://github.com/MarylandRoboticsCenter/ENAE450/blob/main/homework/hw3.md
+# https://github.com/MarylandRoboticsCenter/ENAE450/blob/main/Lab2/files/subscriber_member_function.py
+
 
 class HW31Publisher(Node):
     def __init__(self):
@@ -12,6 +19,9 @@ class HW31Publisher(Node):
     def timer_callback(self):
         msg = UInt32MultiArray()
         msg.data = [self.serial]
+        for i in range(0,10):
+            num = randint(0, 101)
+            msg.data.append(num)
         self.publisher_.publish(msg)
         self.get_logger().info(f"Publishing: {msg.data}")
         self.serial += 1
@@ -28,11 +38,11 @@ def main(args=None):
 
 
 
-    node = rclpy.create_node("hw_3_1_publisher_node")
+    """node = rclpy.create_node("hw_3_1_publisher_node")
     publisher = node.create_publisher(UInt32MultiArray, "topic_1", 10)
     serial = 1
     timer_period = 2
-    node.create_timer(timer_period, node.timer_callback)
+    node.create_timer(timer_period, node.timer_callback)"""
         # while the node is running
         # Should operate at a freq of .5 Hz = every 2 seconds
         # make list of integers from 0 to 100

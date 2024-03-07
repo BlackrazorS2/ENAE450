@@ -7,10 +7,19 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclpy REQUIRED)
+find_package(random REQUIRED)
+find_package(std_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+add_executable(hw3_1_pub src/hw3_1_pub.py)
+ament_target_dependencies(hw3_1_pub rclpy random std_msgs)
+
+install(ament_target_dependencies
+  hw3_1_pub
+  DESTINATION lbi/${PROJECT_NAME})
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
