@@ -66,6 +66,7 @@ def binSearch(targetArray, searchValue):
             if len(targetArray) == 1:
                 break
     return found
+
 def q2():
     # doing binary search
     L1 = listGen(101, 0, 1000)
