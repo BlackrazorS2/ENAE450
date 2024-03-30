@@ -1,0 +1,30 @@
+[0.641s] Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW3/hw3_1': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw3_1 build --build-base /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build install --record /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/install.log --single-version-externally-managed
+[0.847s] running egg_info
+[0.847s] writing ../build/hw3_1/hw3_1.egg-info/PKG-INFO
+[0.847s] writing dependency_links to ../build/hw3_1/hw3_1.egg-info/dependency_links.txt
+[0.848s] writing entry points to ../build/hw3_1/hw3_1.egg-info/entry_points.txt
+[0.848s] writing requirements to ../build/hw3_1/hw3_1.egg-info/requires.txt
+[0.848s] writing top-level names to ../build/hw3_1/hw3_1.egg-info/top_level.txt
+[0.850s] reading manifest file '../build/hw3_1/hw3_1.egg-info/SOURCES.txt'
+[0.850s] writing manifest file '../build/hw3_1/hw3_1.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.851s] running build_py
+[0.851s] copying hw3_1/hw3_1_pub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+[0.851s] copying hw3_1/hw3_1_sub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+[0.851s] running install
+[0.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.851s]   warnings.warn(
+[0.851s] running install_lib
+[0.852s] copying /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1/hw3_1_pub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+[0.852s] copying /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1/hw3_1_sub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+[0.853s] byte-compiling /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1/hw3_1_pub.py to hw3_1_pub.cpython-310.pyc
+[0.853s] byte-compiling /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1/hw3_1_sub.py to hw3_1_sub.cpython-310.pyc
+[0.854s] running install_data
+[0.854s] running install_egg_info
+[0.856s] removing '/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.856s] Copying ../build/hw3_1/hw3_1.egg-info to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1-0.0.0-py3.10.egg-info
+[0.857s] running install_scripts
+[0.874s] Installing hw3_1_pub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/hw3_1
+[0.874s] Installing hw3_1_sub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/hw3_1
+[0.875s] writing list of installed files to '/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/install.log'
+[0.894s] Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW3/hw3_1' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw3_1 build --build-base /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build install --record /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/install.log --single-version-externally-managed

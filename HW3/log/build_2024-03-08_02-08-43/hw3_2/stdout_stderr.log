@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/hw3_2/hw3_2.egg-info/PKG-INFO
+writing dependency_links to ../build/hw3_2/hw3_2.egg-info/dependency_links.txt
+writing entry points to ../build/hw3_2/hw3_2.egg-info/entry_points.txt
+writing requirements to ../build/hw3_2/hw3_2.egg-info/requires.txt
+writing top-level names to ../build/hw3_2/hw3_2.egg-info/top_level.txt
+reading manifest file '../build/hw3_2/hw3_2.egg-info/SOURCES.txt'
+writing manifest file '../build/hw3_2/hw3_2.egg-info/SOURCES.txt'
+running build
+running build_py
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_2/lib/python3.10/site-packages/hw3_2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/hw3_2/hw3_2.egg-info to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_2/lib/python3.10/site-packages/hw3_2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hw3_2_pub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_2/lib/hw3_2
+Installing hw3_2_sub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_2/lib/hw3_2
+writing list of installed files to '/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_2/install.log'

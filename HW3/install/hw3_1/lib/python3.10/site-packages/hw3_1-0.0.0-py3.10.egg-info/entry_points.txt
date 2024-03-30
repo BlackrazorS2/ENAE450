@@ -1,0 +1,4 @@
+[console_scripts]
+hw3_1_pub = hw3_1.hw3_1_pub:main
+hw3_1_sub = hw3_1.hw3_1_sub:main
+

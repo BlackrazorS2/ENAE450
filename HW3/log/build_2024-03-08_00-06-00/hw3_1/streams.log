@@ -1,0 +1,36 @@
+[0.052s] Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/proving_ground_home/Documents/github/ENAE450/HW3/hw3_1 -DCMAKE_INSTALL_PREFIX=/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1
+[0.503s] -- The C compiler identification is GNU 11.4.0
+[0.765s] -- The CXX compiler identification is GNU 11.4.0
+[0.797s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.913s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.914s] -- Detecting C compile features
+[0.932s] -- Detecting C compile features - done
+[0.936s] -- Detecting CXX compiler ABI info
+[1.028s] -- Detecting CXX compiler ABI info - done
+[1.034s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.035s] -- Detecting CXX compile features
+[1.035s] -- Detecting CXX compile features - done
+[1.130s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.348s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.562s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.614s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.614s]   By not providing "Findrandom.cmake" in CMAKE_MODULE_PATH this project has
+[1.614s]   asked CMake to find a package configuration file provided by "random", but
+[1.614s]   CMake did not find one.
+[1.614s] 
+[1.614s]   Could not find a package configuration file provided by "random" with any
+[1.614s]   of the following names:
+[1.614s] 
+[1.614s]     randomConfig.cmake
+[1.614s]     random-config.cmake
+[1.614s] 
+[1.614s]   Add the installation prefix of "random" to CMAKE_PREFIX_PATH or set
+[1.615s]   "random_DIR" to a directory containing one of the above files.  If "random"
+[1.615s]   provides a separate development package or SDK, be sure it has been
+[1.615s]   installed.
+[1.615s] 
+[1.615s] [0m
+[1.615s] -- Configuring incomplete, errors occurred!
+[1.615s] See also "/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/CMakeFiles/CMakeOutput.log".
+[1.618s] Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/proving_ground_home/Documents/github/ENAE450/HW3/hw3_1 -DCMAKE_INSTALL_PREFIX=/home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1

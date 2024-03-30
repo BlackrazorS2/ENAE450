@@ -1,0 +1,5 @@
+[0mCMake Error: Cannot determine link language for target "hw3_1_pub".[0m
+[0mCMake Error: CMake can not determine linker language for target: hw3_1_pub[0m
+[0mCMake Error: Cannot determine link language for target "hw3_1_sub".[0m
+[0mCMake Error: CMake can not determine linker language for target: hw3_1_sub[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

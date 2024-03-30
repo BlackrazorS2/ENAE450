@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/hw3_1/hw3_1.egg-info
+writing ../build/hw3_1/hw3_1.egg-info/PKG-INFO
+writing dependency_links to ../build/hw3_1/hw3_1.egg-info/dependency_links.txt
+writing entry points to ../build/hw3_1/hw3_1.egg-info/entry_points.txt
+writing requirements to ../build/hw3_1/hw3_1.egg-info/requires.txt
+writing top-level names to ../build/hw3_1/hw3_1.egg-info/top_level.txt
+writing manifest file '../build/hw3_1/hw3_1.egg-info/SOURCES.txt'
+reading manifest file '../build/hw3_1/hw3_1.egg-info/SOURCES.txt'
+writing manifest file '../build/hw3_1/hw3_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+copying hw3_1/hw3_1_pub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+copying hw3_1/__init__.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+copying hw3_1/hw3_1_sub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1
+running install
+running install_lib
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+copying /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1/hw3_1_pub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+copying /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1/__init__.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+copying /home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/build/lib/hw3_1/hw3_1_sub.py -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1
+byte-compiling /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1/hw3_1_pub.py to hw3_1_pub.cpython-310.pyc
+byte-compiling /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1/hw3_1_sub.py to hw3_1_sub.cpython-310.pyc
+running install_data
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/share/ament_index
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/share/ament_index/resource_index
+creating /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/share/ament_index/resource_index/packages
+copying resource/hw3_1 -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/share/hw3_1
+running install_egg_info
+Copying ../build/hw3_1/hw3_1.egg-info to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/python3.10/site-packages/hw3_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hw3_1_pub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/hw3_1
+Installing hw3_1_sub script to /home/proving_ground_home/Documents/github/ENAE450/HW3/install/hw3_1/lib/hw3_1
+writing list of installed files to '/home/proving_ground_home/Documents/github/ENAE450/HW3/build/hw3_1/install.log'

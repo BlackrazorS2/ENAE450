@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/hw3_2/hw3_2.egg-info/PKG-INFO
+../build/hw3_2/hw3_2.egg-info/SOURCES.txt
+../build/hw3_2/hw3_2.egg-info/dependency_links.txt
+../build/hw3_2/hw3_2.egg-info/entry_points.txt
+../build/hw3_2/hw3_2.egg-info/requires.txt
+../build/hw3_2/hw3_2.egg-info/top_level.txt
+../build/hw3_2/hw3_2.egg-info/zip-safe
+hw3_2/__init__.py
+hw3_2/hw3_2_pub.py
+hw3_2/hw3_2_sub.py
+resource/hw3_2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

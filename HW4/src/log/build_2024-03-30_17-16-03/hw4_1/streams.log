@@ -1,0 +1,29 @@
+[1.784s] Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data
+[2.031s] running develop
+[2.047s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.047s]   warnings.warn(
+[2.051s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.051s]   warnings.warn(
+[2.213s] running egg_info
+[2.213s] creating hw4_1.egg-info
+[2.213s] writing hw4_1.egg-info/PKG-INFO
+[2.213s] writing dependency_links to hw4_1.egg-info/dependency_links.txt
+[2.213s] writing entry points to hw4_1.egg-info/entry_points.txt
+[2.214s] writing requirements to hw4_1.egg-info/requires.txt
+[2.214s] writing top-level names to hw4_1.egg-info/top_level.txt
+[2.214s] writing manifest file 'hw4_1.egg-info/SOURCES.txt'
+[2.216s] reading manifest file 'hw4_1.egg-info/SOURCES.txt'
+[2.218s] writing manifest file 'hw4_1.egg-info/SOURCES.txt'
+[2.218s] running build_ext
+[2.218s] Creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages/hw4-1.egg-link (link to .)
+[2.219s] 
+[2.219s] Installed /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1
+[2.219s] running install_data
+[2.220s] creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/ament_index
+[2.220s] creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/ament_index/resource_index
+[2.220s] creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/ament_index/resource_index/packages
+[2.220s] copying resource/hw4_1 -> /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/ament_index/resource_index/packages
+[2.220s] copying package.xml -> /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1
+[2.220s] creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/launch
+[2.220s] copying launch/hw4_1_launch.py -> /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/launch
+[2.371s] Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data

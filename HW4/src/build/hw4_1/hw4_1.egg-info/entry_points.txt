@@ -1,0 +1,3 @@
+[console_scripts]
+hw4_1_controller = hw4_1.hw4_1_controller:main
+

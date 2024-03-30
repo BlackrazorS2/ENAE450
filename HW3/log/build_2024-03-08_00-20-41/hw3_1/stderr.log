@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:8 (set_target_properties):
+  set_target_properties Can not find target to add properties to: hw3_1_pub
+
+[0m
