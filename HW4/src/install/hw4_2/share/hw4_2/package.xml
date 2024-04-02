@@ -6,7 +6,10 @@
   <description>TODO: Package description</description>
   <maintainer email="williambauer00@gmail.com">proving_ground_home</maintainer>
   <license>TODO: License declaration</license>
-
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>time</exec_depend>
+  <exec_depend>math</exec_depend>
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

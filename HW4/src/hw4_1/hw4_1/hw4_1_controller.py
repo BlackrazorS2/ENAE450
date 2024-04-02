@@ -13,19 +13,21 @@ class DemoPublisher(Node):
 
     def __init__(self):
         super().__init__('hw4_1_controller')
-        self.publisher_vel = self.create_publisher(Twist, '/turtlesim1/turtle1/cmd_vel', 10)
-        self.get_logger().info('publisher made')
-        self.pen_cli = self.create_client(SetPen, "/turtlesim1/turtle1/set_pen")
-        self.get_logger().info('pen cli made')
+        # create velocity publisher
+        self.publisher_vel = self.create_publisher(Twist,
+                                                    '/turtlesim1/turtle1/cmd_vel', 
+                                                    10)
+        # create pen and tp clients
+        self.pen_cli = self.create_client(SetPen, 
+                                          "/turtlesim1/turtle1/set_pen")
         while not self.pen_cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('pen service not available, waiting...')
-        self.tp_abso = self.create_client(TeleportAbsolute, "/turtlesim1/turtle1/teleport_absolute")
-        self.get_logger().info('tp cli made')
+        self.tp_abso = self.create_client(TeleportAbsolute, 
+                                          "/turtlesim1/turtle1/teleport_absolute")
         while not self.tp_abso.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('tp service not available, waiting...')
         self.pen = SetPen.Request()
         self.tp_req = TeleportAbsolute.Request()
-        self.get_logger().info('done with init')
 
     def move_request(self, x, y, theta):
         self.tp_req.x = float(x)

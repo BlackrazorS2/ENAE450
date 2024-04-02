@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing hw4_2.egg-info/PKG-INFO
+writing dependency_links to hw4_2.egg-info/dependency_links.txt
+writing entry points to hw4_2.egg-info/entry_points.txt
+writing requirements to hw4_2.egg-info/requires.txt
+writing top-level names to hw4_2.egg-info/top_level.txt
+reading manifest file 'hw4_2.egg-info/SOURCES.txt'
+writing manifest file 'hw4_2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/python3.10/site-packages/hw4-2.egg-link (link to .)
+Installing hw4_2_controller script to /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/hw4_2
+
+Installed /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2
+running install_data
+creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/launch
+copying launch/hw4_2_launch.py -> /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/launch

@@ -1,0 +1,21 @@
+[1.636s] Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data
+[1.899s] running develop
+[1.900s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.900s]   warnings.warn(
+[1.901s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.901s]   warnings.warn(
+[2.103s] running egg_info
+[2.104s] writing hw4_1.egg-info/PKG-INFO
+[2.104s] writing dependency_links to hw4_1.egg-info/dependency_links.txt
+[2.104s] writing entry points to hw4_1.egg-info/entry_points.txt
+[2.105s] writing requirements to hw4_1.egg-info/requires.txt
+[2.105s] writing top-level names to hw4_1.egg-info/top_level.txt
+[2.107s] reading manifest file 'hw4_1.egg-info/SOURCES.txt'
+[2.109s] writing manifest file 'hw4_1.egg-info/SOURCES.txt'
+[2.110s] running build_ext
+[2.110s] Creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages/hw4-1.egg-link (link to .)
+[2.111s] Installing hw4_1_controller script to /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/hw4_1
+[2.111s] 
+[2.112s] Installed /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1
+[2.112s] running install_data
+[2.201s] Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data

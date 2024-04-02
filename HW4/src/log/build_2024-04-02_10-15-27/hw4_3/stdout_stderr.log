@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing hw4_3.egg-info/PKG-INFO
+writing dependency_links to hw4_3.egg-info/dependency_links.txt
+writing entry points to hw4_3.egg-info/entry_points.txt
+writing requirements to hw4_3.egg-info/requires.txt
+writing top-level names to hw4_3.egg-info/top_level.txt
+reading manifest file 'hw4_3.egg-info/SOURCES.txt'
+writing manifest file 'hw4_3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/python3.10/site-packages/hw4-3.egg-link (link to .)
+Installing hw4_3_controller script to /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/hw4_3
+Installing hw4_3_spawner script to /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/hw4_3
+
+Installed /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3
+running install_data
+copying package.xml -> /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3

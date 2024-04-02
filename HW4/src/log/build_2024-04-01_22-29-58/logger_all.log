@@ -1,0 +1,227 @@
+[2.841s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.841s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcd083bd450>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcd083bf4c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcd083bf4c0>>)
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.001s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extensions ['ignore', 'ignore_ament_install']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extension 'ignore'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extension 'ignore_ament_install'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extensions ['colcon_pkg']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extension 'colcon_pkg'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extensions ['colcon_meta']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extension 'colcon_meta'
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extensions ['ros']
+[3.040s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_1) by extension 'ros'
+[3.048s] DEBUG:colcon.colcon_core.package_identification:Package 'hw4_1' with type 'ros.ament_python' and name 'hw4_1'
+[3.048s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extensions ['ignore', 'ignore_ament_install']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extension 'ignore'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extension 'ignore_ament_install'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extensions ['colcon_pkg']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extension 'colcon_pkg'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extensions ['colcon_meta']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extension 'colcon_meta'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extensions ['ros']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_2) by extension 'ros'
+[3.049s] DEBUG:colcon.colcon_core.package_identification:Package 'hw4_2' with type 'ros.ament_python' and name 'hw4_2'
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extensions ['ignore', 'ignore_ament_install']
+[3.049s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extension 'ignore'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extension 'ignore_ament_install'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extensions ['colcon_pkg']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extension 'colcon_pkg'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extensions ['colcon_meta']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extension 'colcon_meta'
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extensions ['ros']
+[3.050s] Level 1:colcon.colcon_core.package_identification:_identify(hw4_3) by extension 'ros'
+[3.059s] DEBUG:colcon.colcon_core.package_identification:Package 'hw4_3' with type 'ros.ament_python' and name 'hw4_3'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.059s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/proving_ground_home/Documents/github/ENAE450/HW4/src/install
+[3.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/proving_ground_home/Documents/github/ENAE450/HW3/install
+[3.227s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[3.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_args' from command line to 'None'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_target' from command line to 'None'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_clean_cache' from command line to 'False'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_clean_first' from command line to 'False'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'cmake_force_configure' from command line to 'False'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'ament_cmake_args' from command line to 'None'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'catkin_cmake_args' from command line to 'None'
+[3.319s] Level 5:colcon.colcon_core.verb:set package 'hw4_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.319s] DEBUG:colcon.colcon_core.verb:Building package 'hw4_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1', 'merge_install': False, 'path': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_1', 'symlink_install': True, 'test_result_base': None}
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_args' from command line to 'None'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_target' from command line to 'None'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_clean_first' from command line to 'False'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'cmake_force_configure' from command line to 'False'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'ament_cmake_args' from command line to 'None'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.333s] Level 5:colcon.colcon_core.verb:set package 'hw4_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.333s] DEBUG:colcon.colcon_core.verb:Building package 'hw4_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2', 'merge_install': False, 'path': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_2', 'symlink_install': True, 'test_result_base': None}
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_args' from command line to 'None'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_target' from command line to 'None'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_clean_first' from command line to 'False'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'cmake_force_configure' from command line to 'False'
+[3.347s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'ament_cmake_args' from command line to 'None'
+[3.348s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.348s] Level 5:colcon.colcon_core.verb:set package 'hw4_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.348s] DEBUG:colcon.colcon_core.verb:Building package 'hw4_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3', 'merge_install': False, 'path': '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_3', 'symlink_install': True, 'test_result_base': None}
+[3.361s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_1' with build type 'ament_python'
+[3.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_1', 'ament_prefix_path')
+[3.393s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/ament_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/ament_prefix_path.dsv'
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/ament_prefix_path.sh'
+[3.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.490s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_2' with build type 'ament_python'
+[3.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_2', 'ament_prefix_path')
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/ament_prefix_path.ps1'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/ament_prefix_path.dsv'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/ament_prefix_path.sh'
+[3.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.577s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_3' with build type 'ament_python'
+[3.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_3', 'ament_prefix_path')
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/ament_prefix_path.ps1'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/ament_prefix_path.dsv'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/ament_prefix_path.sh'
+[3.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.896s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_1'
+[3.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.203s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_2'
+[4.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/hw4_3'
+[4.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data
+[5.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/build --no-deps install_data
+[5.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/build --no-deps install_data
+[5.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_3', 'pythonpath_develop')
+[5.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/build --no-deps install_data
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/share/hw4_3/hook/pythonpath_develop.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/share/hw4_3/hook/pythonpath_develop.dsv'
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_3/share/hw4_3/hook/pythonpath_develop.sh'
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3' for CMake module files
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3' for CMake config files
+[6.011s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib'
+[6.011s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/bin'
+[6.011s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/pkgconfig/hw4_3.pc'
+[6.011s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/lib/python3.10/site-packages'
+[6.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_3', 'pythonpath')
+[6.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/pythonpath.ps1'
+[6.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/pythonpath.dsv'
+[6.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/hook/pythonpath.sh'
+[6.026s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/bin'
+[6.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_3)
+[6.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/package.ps1'
+[6.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/package.dsv'
+[6.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/package.sh'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/package.bash'
+[6.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/hw4_3/package.zsh'
+[6.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_3/share/colcon-core/packages/hw4_3)
+[6.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_1', 'pythonpath_develop')
+[6.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/build --no-deps install_data
+[6.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/share/hw4_1/hook/pythonpath_develop.ps1'
+[6.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/share/hw4_1/hook/pythonpath_develop.dsv'
+[6.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_1/share/hw4_1/hook/pythonpath_develop.sh'
+[6.083s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1' for CMake module files
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1' for CMake config files
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib'
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/bin'
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/pkgconfig/hw4_1.pc'
+[6.085s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/lib/python3.10/site-packages'
+[6.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_1', 'pythonpath')
+[6.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/pythonpath.ps1'
+[6.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/pythonpath.dsv'
+[6.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/hook/pythonpath.sh'
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/bin'
+[6.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_1)
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/package.ps1'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/package.dsv'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/package.sh'
+[6.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/package.bash'
+[6.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/hw4_1/package.zsh'
+[6.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_1/share/colcon-core/packages/hw4_1)
+[6.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_2', 'pythonpath_develop')
+[6.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/build --no-deps install_data
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/share/hw4_2/hook/pythonpath_develop.ps1'
+[6.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/share/hw4_2/hook/pythonpath_develop.dsv'
+[6.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/build/hw4_2/share/hw4_2/hook/pythonpath_develop.sh'
+[6.147s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2' for CMake module files
+[6.148s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2' for CMake config files
+[6.148s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib'
+[6.149s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/bin'
+[6.149s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/pkgconfig/hw4_2.pc'
+[6.149s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/lib/python3.10/site-packages'
+[6.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4_2', 'pythonpath')
+[6.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/pythonpath.ps1'
+[6.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/pythonpath.dsv'
+[6.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/hook/pythonpath.sh'
+[6.165s] Level 1:colcon.colcon_core.environment:checking '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/bin'
+[6.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4_2)
+[6.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/package.ps1'
+[6.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/package.dsv'
+[6.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/package.sh'
+[6.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/package.bash'
+[6.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/hw4_2/package.zsh'
+[6.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/hw4_2/share/colcon-core/packages/hw4_2)
+[6.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.183s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.202s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.202s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.230s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/local_setup.ps1'
+[6.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/_local_setup_util_ps1.py'
+[6.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/setup.ps1'
+[6.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/local_setup.sh'
+[6.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/_local_setup_util_sh.py'
+[6.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/setup.sh'
+[6.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/local_setup.bash'
+[6.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/setup.bash'
+[6.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/local_setup.zsh'
+[6.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/proving_ground_home/Documents/github/ENAE450/HW4/src/install/setup.zsh'

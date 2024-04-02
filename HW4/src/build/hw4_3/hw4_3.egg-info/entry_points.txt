@@ -1,3 +1,4 @@
 [console_scripts]
-
+hw4_3_controller = hw4_3.hw4_3_controller:main
+hw4_3_spawner = hw4_3.hw4_3_spawner:main
 
