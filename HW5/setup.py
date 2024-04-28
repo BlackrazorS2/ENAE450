@@ -25,6 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "hw5_2_inside = hw5.hw5_2:main",
+            "hw5_3_outside = hw5.hw5_3:main",
         ],
     },
 )

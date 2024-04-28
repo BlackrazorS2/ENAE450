@@ -35,20 +35,37 @@ class insideWallFollow(Node):
         # call the appropriate function
         # left is 540 right is 180
         rangeData = msg.ranges
-        for idx, range in rangeData: # idx is our angle value
-            if range < self.dist: # we are in range of wall
+        for idx, rng in rangeData: # idx is our angle value
+            if rng < self.dist: # we are in range of wall
                 # ok now we do logic for turning
                 # we desire an angle of 90 degrees (index 180 or 540 on the lidar)
                 if self.clockwise:
                     # wall is on the left of the robot
-                    if idx > 540: # we need to rotate counter clockwise to become parallel
+                    if idx > 360: # we need to rotate counter clockwise to become parallel
                         adjust.angular_z = (idx-180)*math.pi/180
                         adjust.linear_x = 1.0
                         self.vel_pub.publish(adjust)
-                        sleep(1) 
-
-
-        pass
+                        sleep(1)
+                        break # break so we dont make a turn for the range we just compensated for
+                    elif idx <= 360: # We need to rotate clockwise to become parallel
+                        adjust.angular_z = -1*(idx-180)*math.pi/180
+                        adjust.linear_x = 1.0
+                        self.vel_pub.publish(adjust)
+                        sleep(1)
+                        break # break so we dont meake a turn for the range we just compensated for
+                else: # we're going counter clockwise
+                    if idx < 360: # we need to rotate counter clockwise to become parallel
+                        adjust.angular_z = (idx-180)*math.pi/180
+                        adjust.linear_x = 1.0
+                        self.vel_pub.publish(adjust)
+                        sleep(1)
+                        break # break so we dont make a turn for the range we just compensated for
+                    elif idx >= 360: # We need to rotate clockwise to become parallel
+                        adjust.angular_z = -1*(idx-180)*math.pi/180
+                        adjust.linear_x = 1.0
+                        self.vel_pub.publish(adjust)
+                        sleep(1)
+                        break # break so we dont meake a turn for the range we just compensated for
 
     def alongWall(self):
         # check if we are the correct distance from the wall
@@ -64,10 +81,11 @@ class insideWallFollow(Node):
             # rotate to the right a bit 
             pass
 
-    def average(iterable):      
+    def average(self, iterable):      
         total = sum(iterable)
         length = len(iterable)
         return total/length
+    
 def main(args=None):
     rclpy.init(args=args)
     # create node
