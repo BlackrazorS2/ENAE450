@@ -1,0 +1,38 @@
+[1.589s] Invoking command in '/home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5/build --no-deps install_data
+[1.825s] running develop
+[1.837s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.837s]   warnings.warn(
+[1.864s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.864s]   warnings.warn(
+[2.013s] running egg_info
+[2.014s] creating hw5.egg-info
+[2.014s] writing hw5.egg-info/PKG-INFO
+[2.014s] writing dependency_links to hw5.egg-info/dependency_links.txt
+[2.014s] writing entry points to hw5.egg-info/entry_points.txt
+[2.015s] writing requirements to hw5.egg-info/requires.txt
+[2.015s] writing top-level names to hw5.egg-info/top_level.txt
+[2.015s] writing manifest file 'hw5.egg-info/SOURCES.txt'
+[2.017s] reading manifest file 'hw5.egg-info/SOURCES.txt'
+[2.017s] writing manifest file 'hw5.egg-info/SOURCES.txt'
+[2.019s] running build_ext
+[2.019s] Creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/lib/python3.10/site-packages/hw5.egg-link (link to .)
+[2.019s] Installing hw5_2_inside script to /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/lib/hw5
+[2.019s] Installing hw5_3_outside script to /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/lib/hw5
+[2.020s] 
+[2.020s] Installed /home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5
+[2.020s] running install_data
+[2.020s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/ament_index
+[2.020s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/ament_index/resource_index
+[2.020s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/ament_index/resource_index/packages
+[2.020s] copying resource/hw5 -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/ament_index/resource_index/packages
+[2.020s] copying package.xml -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5
+[2.020s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/launch
+[2.020s] copying launch/tb3_4walls_outside.launch.py -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/launch
+[2.021s] copying launch/tb3_4walls_inside.launch.py -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/launch
+[2.021s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/worlds
+[2.021s] copying worlds/tb3_4walls.world -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/worlds
+[2.021s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/models
+[2.021s] creating /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/models/tb3_4walls
+[2.021s] copying models/tb3_4walls/four_walls.sdf -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/models/tb3_4walls
+[2.021s] copying models/tb3_4walls/model.config -> /home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/share/hw5/models/tb3_4walls
+[2.043s] Invoked command in '/home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5' returned '0': PYTHONPATH=/home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5/prefix_override:/home/proving_ground_home/Documents/github/ENAE450/HW5/install/hw5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/proving_ground_home/Documents/github/ENAE450/HW5/build/hw5/build --no-deps install_data

@@ -1,13 +1,11 @@
-ENAE 450
-William Bauer 117987676
-HW 3
-For question 1:
-The publisher node is called hw3_1_pub
-    so to run it the command is ros2 run hw3_1 hw3_1_pub
-The subscriber node is called hw3_1_sub
-I did the 5 point bonus but not the 10 point bonus
+Questions Completed:
+ - 1 part i and ii,
+ - 2 part i and bonus
+ - 3 (bonus problem)
 
-For question 2:
-The publisher node is called hw3_2_pub
-The subscriber node is called hw3_2_sub
-I did not do the bonus
+Question 2:
+
+Question 2 can be launched using the command ros2 launch hw5 tb3_4walls_inside.launch.py
+parmeters for follow distance and rotation direction can also be set within the launch file
+
+Question 3 can be launched using the command ros2 launch hw5 tb3_4walls_outside.launch.py
